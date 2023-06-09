@@ -1,0 +1,101 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #f04d22, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.nav-link {
+  color: white;
+  font-size: 110%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+.add-pad {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.click {
+  font-weight: bold;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+p{
+  margin: 1;
+  padding: 0;
+}
+
+.edu-logo {
+  margin-bottom: 30px;
+}
+
+.table {
+  font-family: 'Lato', sans-serif;
+}
+
+.educate {
+  font-family: 'Lato', sans-serif;
+}
+
+.card-param {
+  margin: 50px;
+}
+
+.card-body {
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.card-head {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.card-place {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 15x;
+  font-weight: bold;
+  color: #f04d22;
+}
+.card-text {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.award-head {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
